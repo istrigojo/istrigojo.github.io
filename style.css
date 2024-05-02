@@ -1,0 +1,56 @@
+body {
+    font-family: 'Gill Sans MT', sans-serif;
+}
+
+main {
+    margin-top: 75px;
+}
+
+section:nth-child(odd) {
+    background-color: #FFE3DD;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #FFFBFB !important;
+}
+
+.card {
+    background-color: #d3d3d3 !important;
+    width: 
+}
+
+/* TIMELINE */
+.timeline {
+    border-left: 1px solid hsl(0, 0%, 50%);
+    position: relative;
+    list-style: none;
+}
+
+.timeline .timeline-item {
+    position: relative;
+}
+
+.timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .timeline-item:after {
+    background-color: hsl(0, 0%, 50%);
+    left: -38px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+}
+/* End TIMELINE */
+
+.social a{
+    color: black;
+}
+
+footer i {
+    color: #ff4033;
+}
